@@ -70,9 +70,9 @@ const Footer = () => {
                     <input 
                     type="email"
                     placeholder="Enter Email"
-                    className="xl:w-[369px] h-[56px] rounded-[8px]"
+                    className="xl:w-[369px] h-[56px] rounded-l-[8px]"
                     />
-                    <button type="submit" className="bg-[#412234] xl:w-[131px] text-white h-[56px] rounded-[8px] text-center xl:text-[20px] font-raleway">Subscribe</button>
+                    <button type="submit" className="bg-[#412234] xl:w-[131px] text-white h-[56px] rounded-r-[8px] text-center xl:text-[20px] font-raleway">Subscribe</button>
                 </form>
             </div>
             <div className="bg-[#ECE9EB] h-[56px] mt-[70px] text-[16px] flex justify-center items-center text-[#2E4052] font-raleway font-thin">
@@ -83,4 +83,4 @@ const Footer = () => {
     )
 };
 
-export default Footer
+export default Footer;
