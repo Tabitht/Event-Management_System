@@ -1,9 +1,7 @@
 import { Suspense, lazy } from "react";
 import { useRoutes } from "react-router-dom";
 import Layout from "../Layouts/Layout";
-//import LandingPage from "../pages/LandingPage"
-
-//const Home = lazy(() => import("../pages/Home"));
+//import LandingPage from "../pages/Home"
 
 const Loadable = (Component)  => {
     return function WrappedComponent(props) {
@@ -22,7 +20,7 @@ const Router = () => {
             element: <Layout />,
             children: [
                 {
-                    element: <Home />,
+                    element: <LandingPage />,
                     index: true,
                 },
             ]
@@ -32,4 +30,4 @@ const Router = () => {
 };
 
 export default Router;
-const Home = Loadable(lazy(() => import("../pages/Home")));
+const LandingPage = Loadable(lazy(() => import("../pages/LandingPage")));

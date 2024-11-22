@@ -6,7 +6,7 @@ import avatars from "../../assets/avatars.svg";
 const SimilarEventBox = ({Head, Text, Location, Rsvp}) => {
     return (
         <div className="">
-            <div className="xl:w-[750px] md:h-[233px] border-[1px] items-center rounded-[10px] border-[#A899A2]">
+            <div className="xl:w-[750px] md:h-[233px] md:border-[1px] items-center rounded-b-[10px] md:rounded-[10px] border-[#A899A2]">
                 <div className="flex flex-col gap-[1rem] md:flex-row justify-between text-[#2A3A4B] p-[1rem] text-[0.88rem] font-raleway font-normal">
                     <div className="flex flex-col items-start gap-[1rem]">
                         <p className="font-semibold text-[1rem] md:text-[1.25rem]">{Head}</p>
@@ -17,7 +17,7 @@ const SimilarEventBox = ({Head, Text, Location, Rsvp}) => {
                         </div>
                         <RsvpButton props={Rsvp} />
                     </div>
-                    <div className="flex flex-col justify-center gap-[1rem]">
+                    <div className="flex md:flex-col md:justify-center gap-[1rem]">
                         <p className="text-left">Speakers</p>
                         <img src={avatars}></img>
                     </div>
