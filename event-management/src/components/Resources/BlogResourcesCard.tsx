@@ -5,7 +5,7 @@ import arrowRight from "../../assets/arrowRight.svg";
 const BlogResourcesCard = ({image}) => {
     return (
         <>
-            <div className="w-[100%] xl:w-[400px] h-[487] rounded-[10px] border-[1px] border-[#A899A2]">
+            <div className="w-[300px] xl:w-[400px] flex-shrink-0 rounded-[10px] border-[1px] border-[#A899A2]">
                 <div className="flex flex-col gap-[1rem] font-raleway text-[0.35rem] md:text-[0.75rem] text-[#586675]">
                     <img src={image} />
                     <div className="flex justify-between p-[0.5rem]">
