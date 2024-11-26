@@ -12,6 +12,18 @@ export default {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    function ({ addUtilities }) {
+      addUtilities({
+        '.no-scrollbar': {
+          '-webkit-scrollbar': 'none',
+          'scrollbar-width': 'none',
+        },
+        '.no-scrollbar::-webkit-scrollbar':{
+          display: 'none',
+        }
+      })
+    }
+  ],
 }
 
