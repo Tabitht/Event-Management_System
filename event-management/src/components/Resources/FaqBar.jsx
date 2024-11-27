@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import arrowDown from "../../assets/angleDown.svg"
 
 const FaqBar = () => {
