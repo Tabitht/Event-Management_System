@@ -11,7 +11,7 @@ import email from "../assets/email.svg";
 const Footer = () => {
     return (
         <div className="flex justify-center">
-            <div className="w-[100%] xl:w-[1440px] xl:h-[586px] bg-[#131B22]">
+            <div className="w-screen xl:h-[586px] bg-[#131B22]">
             <p className="md:hidden ml-[0.5rem] text-[1.25rem] text-white text-left font-bold">Tickety**</p>
             <p className="md:hidden ml-[0.5rem] w-[80%] text-white text-[0.75rem] font-thin text-left">Tickety is an e booking app that aims to make organizing events easy and streamlined for organizers and event attendees.</p>
             <div className="md:hidden ml-[0.5rem] flex flex-col gap-[10px] md:gap-[20px]">

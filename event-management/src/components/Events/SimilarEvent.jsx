@@ -1,4 +1,3 @@
-import React from "react";
 import SimilarEventBox from "./SimilarEventBox";
 
 const SimilarEvent = ({head, text, location, rsvp, image}) => {

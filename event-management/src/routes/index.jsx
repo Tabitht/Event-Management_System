@@ -1,7 +1,7 @@
 import { Suspense, lazy } from "react";
 import { useRoutes } from "react-router-dom";
 import Layout from "../Layouts/Layout";
-//import LandingPage from "../pages/Home"
+import Home from "../pages/Home";
 
 const Loadable = (Component)  => {
     return function WrappedComponent(props) {
@@ -23,11 +23,40 @@ const Router = () => {
                     element: <LandingPage />,
                     index: true,
                 },
+                {
+                    path: "/Home",
+                    element: <Home />,
+                },
             ]
-        }
+        },
+        {
+            path: "/Login",
+            element: <Login />
+        },
+        {
+            path: "/SignUp",
+            element: <SignUp />
+        },
+        {
+            path: "/SuccessfulSignUp",
+            element: <SuccessfulSignUp />
+        },
+        {
+            path: "/DraftEmail",
+            element: <DraftEmail />
+        },
+        {
+            path: "/SuccessfulEventCreation",
+            element: <SuccessfulEventCreation />
+        },
 
     ]);
 };
 
 export default Router;
 const LandingPage = Loadable(lazy(() => import("../pages/LandingPage")));
+const Login = Loadable(lazy(() => import("../pages/Login")));
+const SignUp = Loadable(lazy(() => import("../pages/SignUp")));
+const SuccessfulSignUp = Loadable(lazy(() => import("../pages/SuccessfulSignUp")));
+const DraftEmail = Loadable(lazy(() => import("../pages/DraftEmail")));
+const SuccessfulEventCreation = Loadable(lazy(() => import("../pages/SuccessfulEventCreation")));

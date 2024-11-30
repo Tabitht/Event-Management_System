@@ -1,12 +1,11 @@
-import React from "react";
 import SimpleButton from "../Buttons/SimpleButton";
 import eventPreview from "../../assets/eventPreview.png";
 import location from "../../assets/location.svg";
 
-const UpcomingEvents = ({props}) => {
+const UpcomingEvents = () => {
     return (
         <div className="flex justify-center">
-            <div className="w-[100%] xl:w-[1440px] xl:h-[738px] bg-[#C4BAC0]">
+            <div className="w-[100%] xl:h-[738px] bg-[#C4BAC0]">
                 <div className="flex flex-row px-[2rem] h-[128px] md:h-[140px] xl:h-[128px] justify-between items-center bg-white ">
                     <div className="flex flex-col items-left gap-[0.5rem] text-[#383E49] text-[1rem] md:text-[1.5rem] font-raleway font-bold items-start xl:w-[534px] h-[86px]">
                         <p>Upcoming Events</p>

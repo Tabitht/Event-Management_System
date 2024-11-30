@@ -6,7 +6,7 @@ import hero from "../../assets/hero.png"
 const Hero = () => {
     return (
         <div className="flex justify-center">
-            <div className="xl:w-[1440px] w-[100%] md:h-[669px]">       
+            <div className="w-screen md:h-[669px]">       
             <div className="w-[100%] h-[569px] xl:w-[1216px] md:h-[669px] p-[2rem] md:p-[4rem] xl:p-[5.5rem]"
                 style={{
                     backgroundImage: `url(${hero})`,

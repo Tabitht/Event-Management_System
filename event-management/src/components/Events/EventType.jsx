@@ -1,4 +1,3 @@
-import React from "react";
 import party from "../../assets/partyCard.svg"
 import concert from "../../assets/concertCard.png"
 import conference from "../../assets/conferenceCard.svg"
@@ -8,7 +7,7 @@ import others from "../../assets/othersCard.svg"
 const EventType = () => {
     return (
         <>
-            <div className="bg-white w-[100%] xl:w-[1440px] xl:px-[1.5rem]">
+            <div className="bg-white w-[100%] xl:px-[1.5rem]">
                 <p className="text-[1.5rem] font-raleway font-bold text-[#131B22] text-left">What type of event are you organizing</p>
                 <p className="text-[1rem] font-raleway text-[#586675] text-left mt-[0.5rem]">Select the type of event you want to create from these categories</p>
                 <div className="hidden md:flex flex-col md:flex-row gap-[0.5rem] mt-[1rem] justify-center">

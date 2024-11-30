@@ -1,11 +1,10 @@
-import React from "react";
 import faq from "../../assets/FAQ.png"
 import FaqBar from "./FaqBar";
 
 const Faq = () => {
     return (
         <>
-            <div className="relative w-[100%] md:h-[712px] p-[0.75rem] bg-[#2E4052CC]"
+            <div className="relative w-full md:h-[712px] p-[0.75rem] bg-[#2E4052CC]"
                 style={{
                     background: `url(${faq})`,
                     backgroundSize: "cover",

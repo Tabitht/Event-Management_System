@@ -1,6 +1,7 @@
-import React from "react";
+// import React from "react";
 
-const SimpleButton = ({props}) => {
+// eslint-disable-next-line react/prop-types
+const SimpleButton = ({ props }) => {
     return (
         <>
             <div className="">
