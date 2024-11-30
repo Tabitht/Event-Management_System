@@ -15,7 +15,7 @@ const Home = () => {
     return (
         <>
             <div>
-                <Hero />
+                <Hero link="/Login" />
                 <EventType />
                 <WhatWeDo />
                 <PlanYourNextEvent />

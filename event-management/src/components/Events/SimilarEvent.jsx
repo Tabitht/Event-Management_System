@@ -1,5 +1,6 @@
 import SimilarEventBox from "./SimilarEventBox";
 
+// eslint-disable-next-line react/prop-types
 const SimilarEvent = ({head, text, location, rsvp, image}) => {
     return (
         <div className="mt-[2rem]">

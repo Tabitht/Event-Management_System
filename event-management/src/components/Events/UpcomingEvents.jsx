@@ -6,16 +6,16 @@ const UpcomingEvents = () => {
     return (
         <div className="flex justify-center">
             <div className="w-[100%] xl:h-[738px] bg-[#C4BAC0]">
-                <div className="flex flex-row px-[2rem] h-[128px] md:h-[140px] xl:h-[128px] justify-between items-center bg-white ">
+                <div className="flex flex-row px-[1rem] md:px-[2rem] h-[128px] md:h-[140px] xl:h-[128px] justify-between items-center bg-white ">
                     <div className="flex flex-col items-left gap-[0.5rem] text-[#383E49] text-[1rem] md:text-[1.5rem] font-raleway font-bold items-start xl:w-[534px] h-[86px]">
-                        <p>Upcoming Events</p>
-                        <p className="font-thin text-left text-[0.75rem] w-[70%] md:text-[1rem]">These are upcoming events you can register and attend, or inspire you with your event.</p>
+                        <p className="font-bold">Upcoming Events</p>
+                        <p className="text-left font-light text-[0.75rem] w-[90%] md:text-[1rem]">These are upcoming events you can register and attend, or inspire you with your event.</p>
                     </div>
                     <SimpleButton props="View All"/>
 
                 </div>
                 <div className="flex flex-row justify-between items-center md:gap-[4rem] xl:gap-[10rem] p-[2rem] md:p-[4rem]">
-                    <div className="text-[0.75rem] md:text-[1rem] text-[#383E49] flex flex-col items-start font-thin font-raleway ">
+                    <div className="text-[0.75rem] md:text-[1rem] text-[#383E49] flex flex-col items-start font-raleway ">
                         <p className="text-start font-bold text-[1rem] md:text-[2rem]">Music Festival</p>
                         <p className="text-start">Good music, great entertainment </p>
                         <div className="block xl:hidden mt-[1rem]">

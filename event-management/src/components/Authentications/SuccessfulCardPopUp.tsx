@@ -1,6 +1,5 @@
 import React from "react";
 import check from "../../assets/check.svg";
-import SimpleButton from "../Buttons/SimpleButton";
 import { NavLink } from "react-router-dom";
 
 const SuccessfulCardPopUp = ({head, link, body, button}) => {
@@ -16,7 +15,9 @@ const SuccessfulCardPopUp = ({head, link, body, button}) => {
                         <p className="font-bold text-[1rem] md:text-[1.5rem]">{head}</p>
                         <img src={check}></img>
                         <p className="text-[0.75rem] md:text-[1rem] text-[#131200]">{body}</p>
-                       <NavLink to={link}> <SimpleButton props={button}/></NavLink>
+                       <NavLink to={link}> 
+                       <button className="w-[200px] md:w-[256px] h-[56px] bg-[rgb(65,34,52)] rounded-[4px] md:rounded-[8px] text-[0.75rem] md:text-[1.25rem] text-center font-raleway text-white">{button}</button>
+                       </NavLink>
                     </div>
 
                 </div>

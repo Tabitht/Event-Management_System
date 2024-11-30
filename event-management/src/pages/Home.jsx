@@ -10,14 +10,14 @@ const Home = () => {
     return (
         <>
             <div>
-                <Hero />
+                <Hero link="/" />
                 <UpcomingEvents />
                 <div className="flex justify-center">
-                <div className="w-[100%] xl:w-[1440px] xl:h-[1298px] border-[1px] p-[1rem] md:p-[3rem] xl:p-[5rem]">
+                <div className="w-[100%] xl:h-[1298px] p-[1rem] md:p-[3rem] xl:p-[5rem]">
                     <div className="flex flex-row justify-between">
                         <div className="flex flex-col items-start text-[0.75rem] md:text-[1rem] font-raleway text-[#383E49] ">
                             <p className="font-bold text-[1rem] md:text-[1.5rem]">Similar Events</p>
-                            <p className="w-[60%] md:w-[100%] text-start">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p>
+                            <p className="w-[80%] md:w-[100%] text-start">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p>
                         </div>
                         <div className=""><SimpleButton props="View All" /></div>
                     </div>
