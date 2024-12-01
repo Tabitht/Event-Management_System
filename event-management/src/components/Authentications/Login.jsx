@@ -12,7 +12,7 @@ const Login = () => {
     
     return (
         <>
-            <div className="w-[100%] h-[800px] md:h-[1024px] font-raleway flex justify-center items-center"
+            <div className="w-full h-[800px] md:h-[1024px] font-raleway flex justify-center items-center"
                 style={{
                     backgroundImage: `url(${background})`,
                 }}

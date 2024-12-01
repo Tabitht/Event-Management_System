@@ -49,6 +49,14 @@ const Router = () => {
             path: "/SuccessfulEventCreation",
             element: <SuccessfulEventCreation />
         },
+        {
+            path: "/MyEvents",
+            element: <MyEvents />
+        },
+        {
+            path: "/ManageEvent",
+            element: <ManageEvent />
+        },
 
     ]);
 };
@@ -60,3 +68,5 @@ const SignUp = Loadable(lazy(() => import("../pages/SignUp")));
 const SuccessfulSignUp = Loadable(lazy(() => import("../pages/SuccessfulSignUp")));
 const DraftEmail = Loadable(lazy(() => import("../pages/DraftEmail")));
 const SuccessfulEventCreation = Loadable(lazy(() => import("../pages/SuccessfulEventCreation")));
+const MyEvents = Loadable(lazy(() => import("../pages/MyEvents")));
+const ManageEvent = Loadable(lazy(() => import("../pages/ManageEvent")));

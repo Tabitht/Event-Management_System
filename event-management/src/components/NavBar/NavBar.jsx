@@ -1,6 +1,6 @@
-import React, {useState} from "react";
+import {useState} from "react";
 import dropDownList from "../../assets/drop-down-list.svg";
-//import EventPopUpButton from "../Buttons/EventPopUpButton";
+import Navigation from "./Navigation";
 
 const NavBar = () => {
 
@@ -19,7 +19,7 @@ const NavBar = () => {
                         <p>About Us</p>
                         <p>Services</p>
                         <p>Blog</p>
-                        <p>Events</p>
+                        <Navigation link="/MyEvents" label="Events" />
                     </div>
                 )}
             </nav>

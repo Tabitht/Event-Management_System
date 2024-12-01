@@ -9,7 +9,7 @@ const InputField = ({title, type, placeholder}) => {
                     <input
                         type={type}
                         placeholder={placeholder}
-                        className="w-[90%] xl:w-[95%] h-[62px] text-[#BEC4C9] rounded-[4px] border-[1px] px-[1rem] flex justify-center text-left border-[#C4BAC0]"
+                        className="w-[100%] xl:w-[95%] h-[62px] text-[#BEC4C9] rounded-[4px] border-[1px] px-[1rem] flex justify-center text-left border-[#C4BAC0]"
                     />
                 </form>
             </div>

@@ -5,9 +5,9 @@ import hero from "../../assets/hero.png"
 // eslint-disable-next-line react/prop-types
 const Hero = ({link}) => {
     return (
-        <div className="flex justify-center">
-            <div className="w-screen md:h-[669px]">       
-            <div className="w-[100%] h-[569px] xl:w-[1216px] md:h-[669px] p-[2rem] md:p-[4rem] xl:p-[5.5rem]"
+        <div className="w-full md:h-[669px] flex justify-center">
+                   
+            <div className="w-full h-[569px] xl:w-[1216] md:h-[669px] p-[2rem] md:p-[4rem] xl:p-[5.5rem]"
                 style={{
                     backgroundImage: `url(${hero})`,
                  }}
@@ -22,7 +22,7 @@ const Hero = ({link}) => {
                     </div>
                     <UpcomingEventPopUp />
                 </div>
-            </div>
+            
             </div>            
         </div>
     )
