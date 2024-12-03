@@ -24,7 +24,7 @@ const MyEvents = () => {
                                 <input
                                     type="text"
                                     placeholder="search..."
-                                    className="w-[100%] md:w-[437px] xl:w-[537px] h-[48px] pl-[3rem] rounded-[4px] bg-white flex justify-center"
+                                    className="w-[250px] md:w-[437px] xl:w-[537px] h-[48px] pl-[3rem] rounded-[4px] bg-white flex justify-center"
                                 />
                             </div>
                         </form>
