@@ -22,7 +22,7 @@ const MyEvents = () => {
                             <img className="w-[15%] md:w-auto" src={ArrowLeft} />
                             <p className="font-semibold text-[1.75rem] md:text-[2rem]">My Events</p>
                         </div>
-                        <SimpleButton props="View RSVP" />
+                        <div className="flex flex-row-reverse"><SimpleButton props="View RSVP" /></div>
                     </div>
                     <div className="bg-white">
                         <div className="flex flex-col gap-[1rem] p-[1rem] md:p-[3rem] text-start">
@@ -34,16 +34,15 @@ const MyEvents = () => {
                             >
                                 <div className="flex justify-center mt-[4rem]"><UploadImage /></div>
                             </div>
-                            <InputField title="Event Name" type="text" placeholder="Youth Conference" />
+                            <InputField title="Event Name" type="text" placeholder="Event Name" />
                             <InputBar title="Event Category" type="text" placeholder="Event Category" icon={angleDown}/>
                             <InputField title="About The Event" type="text" placeholder="Describe Event" />  
                             <LocationBar title="Location" type="text" placeholder="Location" icon={angle} />
                             <InputBar title="Event Date" type="text" placeholder="Event Date" icon={calendar}/>
                             <InputBar title="Start Time" type="text" placeholder="Event Time" icon={clock}/>
                             <InputBar title="RSVP" type="text" placeholder="Rsvp" icon={angleDown}/>                      
-                            <div className="flex gap-[1rem] md:justify-between">
-                                <button className="w-[100%] md:w-[256px] border-[1px] border-[#412234] h-[56px] rounded-[4px] md:rounded-[8px] text-[0.75rem] md:text-[1.25rem] text-center font-raleway text-[#412234]">Delete Event</button>
-                                <div className="xl:pr-[3.25rem]"><SimpleButton props="Save Changes" /></div>
+                            <div className="flex flex-row-reverse">
+                                <div className="xl:pr-[3.25rem]"><SimpleButton props="Create Event" /></div>
                             </div>
                         </div>
                     </div>

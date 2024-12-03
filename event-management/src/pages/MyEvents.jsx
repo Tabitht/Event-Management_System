@@ -31,11 +31,13 @@ const MyEvents = () => {
                     </div>
                     <div className="flex flex-col gap-[1rem] text-start">
                         <p className="text-[1.5rem] md:text-[2rem] font-bold">Upcoming Events</p>
-                        <div className="flex flex-col gap-[0.5rem]">
-                            <img src={image1}></img>
-                            <p className="text-[1rem] md:text-[1.5rem] font-bold">Youth Conference</p>
-                            <p className="text-[#586675]">Emerging technologies and students at the forefront of driving innovations. Youths as leaders need to immense themselves in creating conducive environments for driving the force of change they want to see. </p>
-                            <SimpleButton props="View Details" />
+                        <div className="flex flex-row gap-[1rem]">
+                            <div className="flex flex-col gap-[0.5rem]">
+                                <img src={image1}></img>
+                                <p className="text-[1rem] md:text-[1.5rem] font-bold">Youth Conference</p>
+                                <p className="text-[#586675]">Emerging technologies and students at the forefront of driving innovations. Youths as leaders need to immense themselves in creating conducive environments for driving the force of change they want to see. </p>
+                                <div className="flex md:flex-row-reverse"><SimpleButton props="View Details" /></div>
+                            </div>
                         </div>
                     </div>
                     <div className="flex flex-col gap-[1rem] text-start">
@@ -44,7 +46,7 @@ const MyEvents = () => {
                             <img src={image1}></img>
                             <p className="text-[1rem] md:text-[1.5rem] font-bold">Youth Conference</p>
                             <p className="text-[#586675]">Emerging technologies and students at the forefront of driving innovations. Youths as leaders need to immense themselves in creating conducive environments for driving the force of change they want to see. </p>
-                            <SimpleButton props="View Details" />
+                            <div className="flex md:flex-row-reverse"><SimpleButton props="View Details" /></div>
                         </div>
                     </div>
                 </div>

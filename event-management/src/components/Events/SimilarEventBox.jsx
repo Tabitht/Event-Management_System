@@ -1,4 +1,4 @@
-import React from "react";
+
 import location from "../../assets/locationIcon.svg"
 import RsvpButton from "../Buttons/RsvpButton";
 import avatars from "../../assets/avatars.svg";
@@ -19,7 +19,7 @@ const SimilarEventBox = ({Head, Text, Location, Rsvp}) => {
                     </div>
                     <div className="flex md:flex-col md:justify-center gap-[1rem]">
                         <p className="text-left">Speakers</p>
-                        <img src={avatars}></img>
+                        <img className="w-[70%] md:w-auto" src={avatars}></img>
                     </div>
 
                 </div>
