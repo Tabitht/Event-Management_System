@@ -7,6 +7,11 @@ const Navigation = ({link, label}) => {
             <div>
                 <NavLink 
                     to={link}
+                    className={({ isActive }) => 
+                        isActive
+                            ? "text-[#1B0E16] font-bold"
+                            : ""
+                    }
                 >
                     {label}
                 </NavLink>

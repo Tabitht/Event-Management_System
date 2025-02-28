@@ -1,6 +1,7 @@
 import {useState} from "react";
 import dropDownList from "../../assets/drop-down-list.svg";
 import Navigation from "./Navigation";
+import EventsMenu from "../DropDownMenu/EventsMenu";
 
 const NavBar = () => {
 
@@ -15,11 +16,12 @@ const NavBar = () => {
                    <img className="" src={dropDownList} />
                 </button>
                 {isOpen && (
-                    <div className="flex flex-col">
+                    <div className="flex flex-col text-left">
+                        <Navigation link="/Home" label="Home" />
                         <p>About Us</p>
                         <p>Services</p>
                         <p>Blog</p>
-                        <Navigation link="/MyEvents" label="Events" />
+                        <EventsMenu link="/MyEvents" label="Events" />
                     </div>
                 )}
             </nav>

@@ -58,7 +58,7 @@ const Router = () => {
             element: <ManageEvent />
         },
         {
-            path: "/CreateEvent",
+            path: "/Events/CreateEvent",
             element: <CreateEvent />
         },
         {
