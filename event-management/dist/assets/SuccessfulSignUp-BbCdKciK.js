@@ -1,0 +1,1 @@
+import{j as o}from"./index-BqFIaqp3.js";import{S as e}from"./SuccessfulCardPopUp-B7cJA2Bt.js";const r=()=>o.jsx(o.Fragment,{children:o.jsx(e,{head:"Welcome Onboard!",link:"/Login",body:"You have successfully created your account. You can now login to create an event.",button:"Login"})});export{r as default};

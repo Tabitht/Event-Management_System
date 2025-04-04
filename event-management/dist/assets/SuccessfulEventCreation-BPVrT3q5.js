@@ -1,0 +1,1 @@
+import{j as e}from"./index-BqFIaqp3.js";import{S as s}from"./SuccessfulCardPopUp-B7cJA2Bt.js";const r=()=>e.jsx(e.Fragment,{children:e.jsx(s,{head:"Event created successfully!",link:"/Home",body:"Your event has been successfully created! Attendees can now view details and RSVP. ",button:"Proceed to Dashboard"})});export{r as default};

@@ -1,0 +1,1 @@
+import{j as t}from"./index-BqFIaqp3.js";import{S as a}from"./SuccessfulCardPopUp-B7cJA2Bt.js";const r=()=>t.jsx(t.Fragment,{children:t.jsx(a,{head:"Congratulations!",link:"#",body:"You’ve successfully created an event. Draft/Attach a confirmation email to send to your attendees.",button:"Confirmation Email"})});export{r as default};
